@@ -1,0 +1,67 @@
+:root {
+  --primary:skyblue;
+}
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background-color: var(--primary);
+}
+#wrapper h2 {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  color:var(--primary) ;
+  letter-spacing: 1px;
+}
+.img {
+  width: 40px;
+  height: 40px;
+}
+input {
+  border-radius: 5px;
+  border: 2px solid black;
+  margin-top:30px;
+  height: 2.5em;
+  width: 250px;
+  padding-left:10px ;
+  border: none;
+  
+}
+
+#wrapper {
+  height: auto;
+  width: 400px;
+  margin: 200px auto;
+  background-color: #1f2029;
+  border-radius: 10px;
+  padding: 30px;
+}
+button {
+  margin-top: 20px;
+  background-color: var(--primary);
+  border-radius: 5px;
+  border: none;
+  height: 36px;
+  font-weight: 600;
+  padding: 0 20px;
+  color: black;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+#todolist {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px
+
+}
+#todolist p {
+  margin: 20px 0px;
+
+}
+#todolist p:hover {
+  cursor: pointer;
+}
